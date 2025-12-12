@@ -45,11 +45,10 @@ defaults:
 minima:
   skin: solarized-light
 
-
-head_scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
-
-
+header_pages:
+  - index.markdown
+  - publications.markdown
+  - courses.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
