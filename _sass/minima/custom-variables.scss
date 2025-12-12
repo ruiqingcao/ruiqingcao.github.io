@@ -1,1 +1,10 @@
 // Placeholder to allow overriding predefined variables smoothly.
+
+$base-font-family:
+  "Rockwell", "Rockwell Std", "Rockwell Nova", /* commercial */
+  "Roboto Slab", "Arvo", "Zilla Slab",         /* free web alternatives */
+  Georgia, "Times New Roman", serif;
+
+$headings-font-family: $base-font-family;
+$base-font-size:   16px;
+$base-line-height: 1.6;

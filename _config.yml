@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author: Ruiqing Cao
-title: Ruiqing Cao
+author: Ruiqing (Sam) Cao
+title: Ruiqing (Sam) Cao
 email: sam.cao@hhs.se
 description: >- # this means to ignore newlines until "baseurl:"
   
@@ -44,6 +44,12 @@ defaults:
 
 minima:
   skin: solarized-light
+
+
+head_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

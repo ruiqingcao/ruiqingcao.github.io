@@ -7,7 +7,7 @@
       <div class="footer-col">
       {%- if site.author %}
         <ul class="contact-list" style="text-align:left">
-          <li class="p-name">© 2024 {{ site.author }}. Powered by Jekyll.</li>
+          <li class="p-name">© {{ site.time | date: '%Y' }} {{ site.author }}. Powered by Jekyll.</li>
         </ul>
       {%- endif %}
       </div>
